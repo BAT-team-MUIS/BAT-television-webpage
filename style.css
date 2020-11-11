@@ -301,7 +301,6 @@ table tr td:first-child{
     @media (max-width: 767.98px) {
     } 
 
-
     /* content.html heseg */
     .Nevtruuleg {
         position: relative;
@@ -427,3 +426,31 @@ table tr td:first-child{
             clear: both;
         }
     }
+=======
+    /* Mobile Menu */
+	.topnav{
+		display:none;
+			}
+@media screen and (max-width: 800px) {
+.topnav {
+display:block;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+}
