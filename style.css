@@ -300,6 +300,133 @@ table tr td:first-child{
     }
     @media (max-width: 767.98px) {
     } 
+
+    /* content.html heseg */
+    .Nevtruuleg {
+        position: relative;
+        width: 100%;
+        height: 8rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        background-image: url("content-background.webp");
+        background-size: cover;
+        color: white;
+        margin-bottom: 3%;
+    }
+    .Nevtruuleg h2 {
+        position: relative;
+        margin-left: 7%;
+    }
+    .Nevtruuleg p {
+        position: relative;
+        margin-left: 7%;
+    }
+
+    .NevtruulegCard-right {
+        position: relative;
+        clear: both;
+        width: 100%;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        float: left;
+        text-align: justify;
+    }
+
+    .NevtruulegCard-left {
+        position: relative;
+        clear: both;
+        width: 100%;
+        height: auto;
+        margin-bottom: 3%;
+        margin-top: 3%;
+        float: left;
+        text-align: justify;
+    }
+
+    .NevtruulegCard-right img {
+        width: 49%;
+        height: auto;
+        object-fit: cover;
+        margin-left: 2%;
+        float: right;
+    }
+    .NevtruulegCard-left img {
+        width: 49%;
+        height: auto;
+        object-fit: cover;
+        margin-right: 2%;
+        float: left;
+    }
+
+    .NevtruulegCard-right .TopText {
+        position: relative;
+        width: 48%;
+        float: left;
+    }
+    .NevtruulegCard-right .BottomText {
+        position: relative;
+        width: 48%;
+        float: left;
+    }
+    .NevtruulegCard-left .TopText {
+        position: relative;
+        width: 49%;
+        float: right;
+    }
+    .NevtruulegCard-left .BottomText {
+        position: relative;
+        width: 49%;
+        float: right;
+    }
+    .NevtruulegCard-left p {
+        text-indent: 3rem;
+    }
+    .NevtruulegCard-right p {
+        text-indent: 3rem;
+    }
+    form input {
+        width: 100%;
+        height: 1rem;
+    }
+    @media screen and (max-width: 800px) {
+        .NevtruulegCard-right img {
+            margin: 0%;
+            width: 100%;
+            float: left;
+            clear: both;
+        }
+        .NevtruulegCard-left img {
+            margin: 0%;
+            width: 100%;
+            float: left;
+            clear: both;
+        }
+        .NevtruulegCard-right .TopText {
+            margin: 0%;
+            width: 100%;
+            float: left;
+            clear: both;
+        }
+        .NevtruulegCard-right .BottomText {
+            margin: 0%;
+            width: 100%;
+            float: left;
+            clear: both;
+        }
+        .NevtruulegCard-left .TopText {
+            margin: 0%;
+            width: 100%;
+            float: left;
+            clear: both;
+        }
+        .NevtruulegCard-left .BottomText {
+            margin: 0%;
+            width: 100%;
+            float: left;
+            clear: both;
+        }
+    }
+=======
     /* Mobile Menu */
 	.topnav{
 		display:none;
