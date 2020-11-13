@@ -455,6 +455,18 @@ display:block;
 }
 }
 
+    /* Live heseg */
+    .Live {
+        position: sticky;
+        overflow:hidden;
+        height:100%;
+        width:100%;
+    }
+    .Live iframe {
+        overflow:hidden;
+        height:30rem;
+        width:100%;
+=======
     /* Medee heseg */
     .ontslohMedee {
         position: relative;
