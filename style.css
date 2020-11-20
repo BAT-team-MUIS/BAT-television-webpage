@@ -13,108 +13,6 @@
     #mob{
         display:none;
     }
-
-
-
-
-
-/* footer css jimmy */
-/*html{
-    width:100%;
-}*/
-.container{
-    position: relative;
-    width: 100vw;
-    margin-left: -8px;
-    height: 25vh;
-    background-color: #000000;
-    color: #ffffff;
-    padding-top: 20px;
-}
-.inner-container {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.inner-container .sasuke + .sasuke {
-    margin-top: 20px;
-}
-.first {
-    height: 25%;
-}
-.first img {
-    height: 100%;
-}
-.second {
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-}
-.second div + div {
-    margin-left: 20px;
-}
-.second a {
-    color: #fff;
-    text-decoration: none;
-    font-family: 'Open Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.third {
-    height: 25%;
-    display: flex;
-    flex-direction: row;
-}
-.third .social-icon-con + .social-icon-con {
-    margin-left: 15px ;
-}
-.social-icon {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 20px;
-}
-.social-icon-con {
-    width: 35px; 
-    height: 35px;
-    border-radius: 1px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.social-icon-con:hover .social-icon {
-    color: #000000;
-}
-.social-icon-con:hover {
-   
-    background-color: #fff;
-    transition: 0.3s;
-    transform: scale(1.3);
-}
-.last {
-    height: 25%;
-    font-size: 11px;
-    color: #8d8b8b;
-    font-family: 'Open Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-.last span {
-    margin-right: 20px;
-}
-.second a:hover {
-color: #75fffd;
-transition: 0.3s;
-}
-
-
-
-
-
-
-
-
-
-
     @media screen and (max-width: 800px) {
         .navbar{
             display: none;
@@ -337,6 +235,100 @@ transition: 0.3s;
       background-color: #717171;
     }
     
+
+
+/* footer css jimmy */
+/*html{
+    width:100%;
+}*/
+.kagebunshino{
+    position: relative;
+    width: 100vw;
+    margin-left: -8px;
+    height: 25vh;
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+}
+.inner-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-container .sasuke + .sasuke {
+    margin-top: 20px;
+}
+.first {
+    height: 25%;
+}
+.first img {
+    height: 100%;
+}
+.second {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.second div + div {
+    margin-left: 20px;
+}
+.second a {
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Open Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.third {
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+}
+.third .social-icon-con + .social-icon-con {
+    margin-left: 15px ;
+}
+.social-icon {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social-icon-con {
+    width: 35px; 
+    height: 35px;
+    border-radius: 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.social-icon-con:hover .social-icon {
+    color: #000000;
+}
+.social-icon-con:hover {
+   
+    background-color: #fff;
+    transition: 0.3s;
+    transform: scale(1.3);
+}
+.last {
+    height: 25%;
+    font-size: 11px;
+    color: #8d8b8b;
+    font-family: 'Open Sans', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.last span {
+    margin-right: 20px;
+}
+.second a:hover {
+color: #75fffd;
+transition: 0.3s;
+}
+
+
+
+
+
     /* Fading animation */
     .fade {
       -webkit-animation-name: fade;
