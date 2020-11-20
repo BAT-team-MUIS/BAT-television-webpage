@@ -34,18 +34,6 @@
         margin-right: 7%;
         z-index: 0;
     }
-
-    #footer {
-        position: relative;
-        text-align:center;
-        padding: 15px;
-        text-decoration:none;
-        bottom:0;
-        width: 100%;
-        clear: both;
-        height: 5%;
-        font-family: 'Oswald', sans-serif !important;
-     }
     .tabitem {
         float: left;
         margin-left: 2rem;
