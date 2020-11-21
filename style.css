@@ -242,9 +242,10 @@
     width:100%;
 }*/
 .kagebunshino{
-    position: absolute;
-    width: 100vw;
+    position: sticky;
     bottom: 0;
+    z-index: 0;
+    width: 100vw;
     margin-left: -8px;
     height: 25vh;
     background-color: #000000;
