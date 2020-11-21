@@ -27,8 +27,15 @@
         padding-top: 3%;
 	height: 100%;
         position: relative;
-    }
-
+   	 }
+	::-moz-selection { /* Code for Firefox */
+  	color: white;
+  	background: #202020;
+	}
+	::selection {
+ 		color: white;
+		background: #202020;
+	}
     .Content-wrap {
         position: relative;
         margin-left: 7%;
