@@ -244,8 +244,9 @@
 .kagebunshino{
     position: sticky;
     bottom: 0;
-    z-index: 0;
+    z-index: -1;
     width: 100vw;
+    margin-top: 27vh;
     margin-left: -8px;
     height: 25vh;
     background-color: #000000;
