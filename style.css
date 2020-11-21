@@ -25,6 +25,7 @@
     }
     body {
         padding-top: 3%;
+	height: 100%;
         position: relative;
     }
 
@@ -242,11 +243,11 @@
     width:100%;
 }*/
 .kagebunshino{
-    position: relative;
+    position: absolute;
     bottom: 0;
-    z-index: 1;
+    z-index: -1;
     width: 100vw;
-    margin-top: 27vh;
+    margin-top: 25hv;
     margin-left: -8px;
     height: 25vh;
     background-color: #000000;
