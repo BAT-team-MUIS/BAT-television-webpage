@@ -391,8 +391,36 @@ table tr td:first-child{
     }
     @media (max-width: 767.98px) {
     } 
+=======
+    /* Mobile Menu */
+	.topnav{
+		display:none;
+			}
+@media screen and (max-width: 800px) {
+.topnav {
+display:block;
+}
 
-    /* content.html heseg */
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+}
+
+   /* content.html heseg */
     .Nevtruuleg {
         position: relative;
         width: 100%;
@@ -517,34 +545,6 @@ table tr td:first-child{
             clear: both;
         }
     }
-=======
-    /* Mobile Menu */
-	.topnav{
-		display:none;
-			}
-@media screen and (max-width: 800px) {
-.topnav {
-display:block;
-}
-
-.topnav #myLinks {
-  display: none;
-}
-
-.topnav a {
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-}
 
     /* Live heseg */
     .Live {
@@ -552,15 +552,14 @@ display:block;
         overflow:hidden;
         height:100%;
         width:100%;
+        border-radius: 0.5rem;
     }
     .Live iframe {
         overflow:hidden;
         height:30rem;
         width:100%;
-	    
-	    
-	     
-=======
+    }
+
     /* Medee heseg */
     .ontslohMedee {
         position: relative;
@@ -642,6 +641,7 @@ display:block;
             transform: translateY(-105%);
         }
     }
+
 	    
 	    
 
