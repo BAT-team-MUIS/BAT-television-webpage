@@ -9,7 +9,57 @@
 	<meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name=description content="Мэдээ BAT TV">
+  <meta name=description content="Мэдээ BAT TV">
+  <style>
+    * {box-sizing: border-box;}
+    /* #region RecentNews styles */
+    .recentNews {
+      display:inline-block; 
+      margin:5px; 
+      padding:5px;
+      width:400px; 
+      height:400px;
+    }
+
+    .recentNews-thumb {
+      display: inline-block; 
+      height:160px;
+    }
+
+    .recentNews-text{
+      display:inline-block;
+      height:70px;
+      width: 300px;
+    }
+
+    .recentNews-header{
+      font: normal normal 12px Verdana, sans-serif;
+    }
+    .recentNews-stat{
+      text-align:right;
+      color:gray;
+      font-style:italic;
+    }
+
+    .recentNews-shareCount{
+      display:inline;
+    }
+
+    .recentNews-pubdate{
+      display:inline;
+    }
+
+    @keyframes fadeInAnimation { 
+        0% { 
+            opacity: 0; 
+        } 
+        100% { 
+            opacity: 1; 
+        } 
+    } 
+      /* #endregion  */
+  </style>
+  <script type="module" src="modules/RecentNews.js"></script>
 </head>
 <body>
 	<header>
@@ -45,7 +95,6 @@ function menudrop() {
   }
 }
 </script>
-  
     <h1>BAT телевиз</h1>
     <div class="Nevtruuleg">
       <div>
@@ -56,18 +105,18 @@ function menudrop() {
     <section class="Content-wrap">
       <div class="ontslohMedee">
         <div class="Ontsloh-zurag" id="o1">
-          <img src="onts1.webp" , alt="ontsloh1" />
+          <img src="ontsloh1.webp" , alt="ontsloh1" />
           <div class="Ontsloh-text">
-          <h2>
-            Хөл хорионы хатуу дэглэмийн үеэр уран зураг зурах нь стрессийн түвшинг бууруулна.
-          </h2>
-          <p>
-            Олон улсын мэргэжилтнүүд дэлхийн 7 орны 20 мянга орчим хүнээс хатуу хөл хорионы үеэр цагийг хэрхэн өнгөрөөх талаар цахим судалгаа бөглүүлжээ. Энэ судалгаанд цагийг хэрхэн ашигтай өнгөрүүлэх түүнчлэн юуг хамгийн их хийсэн талаар санал асуулга явуулсан байна.
-          </p>
+            <h2>
+              Хөл хорионы хатуу дэглэмийн үеэр уран зураг зурах нь стрессийн түвшинг бууруулна.
+            </h2>
+            <p>
+              Олон улсын мэргэжилтнүүд дэлхийн 7 орны 20 мянга орчим хүнээс хатуу хөл хорионы үеэр цагийг хэрхэн өнгөрөөх талаар цахим судалгаа бөглүүлжээ. Энэ судалгаанд цагийг хэрхэн ашигтай өнгөрүүлэх түүнчлэн юуг хамгийн их хийсэн талаар санал асуулга явуулсан байна.
+            </p>
           </div>
         </div>
         <div class="Ontsloh-zurag" id="o2">
-          <img src="onts1.webp" , alt="ontsloh1" />
+          <img src="ontsloh2.webp" , alt="ontsloh1" />
           <div class="Ontsloh-text">
             <h2>
               Хөл хорионы хатуу дэглэмийн үеэр уран зураг зурах нь стрессийн түвшинг бууруулна.
@@ -79,66 +128,60 @@ function menudrop() {
         </div>
       </div>
       </div>
-      <div class="medeeMedeelel">
+      <!-- <div class="medeeMedeelel">
         <h3>Мэдээ, мэдээлэл</h3>
-        <div>
-          <div>
-            <img src="" , alt="m1" />
-            <h4>"Монголын кино урлаг 2020"</h4>
-            <div>
-              <img class="clock" src="clock1.svg" , alt="tsag" />
-              <p>2020.10.05</p>
+        <div class="MedeeMedeelel">
+          <div class="MedeeCard">
+            <img class="MedeeniiZurag" src="miraculous.webp" , alt="medee1" />
+            <div class="MedeeniiBody">
+              <h4 class="MedeeniiTitle">"Монголын кино урлаг 2020"</h4>
+              <img src="clock1.svg" , alt="tsag" />
+              <p class="MedeeniiOgnoo">2020.10.05</p>
+              <p class="MedeeniiTovchTailbar">
+                "Монголын кино урлаг 2020"анхдугаар чуулга уулзалт зохион
+                байгуулагдлаа.
+              </p>
             </div>
-            <p>
-              "Монголын кино урлаг 2020"анхдугаар чуулга уулзалт зохион
-              байгуулагдлаа.
-            </p>
           </div>
-          <div>
-            <img src="" , alt="m2" />
-            <h4>Нийтийн тээврийн хүрэлцээ</h4>
-            <div>
-              <img class="clock" src="clock1.svg" , alt="tsag" />
-              <p>2020.10.05</p>
+
+          <div class="MedeeCard">
+            <img class="MedeeniiZurag" src="miraculous.webp" , alt="medee1" />
+            <div class="MedeeniiBody">
+              <h4 class="MedeeniiTitle">"Монголын кино урлаг 2020"</h4>
+              <img src="clock1.svg" , alt="tsag" />
+              <p class="MedeeniiOgnoo">2020.10.05</p>
+              <p class="MedeeniiTovchTailbar">
+                "Монголын кино урлаг 2020"анхдугаар чуулга уулзалт зохион
+                байгуулагдлаа.
+              </p>
             </div>
-            <p>Нийтийн тээврийн хүрэлцээ хангалтгүй байна.</p>
           </div>
-          <div>
-            <img src="" , alt="m3" />
-            <h4>Бангкок хотын эсэргүүцлийн жагсаал</h4>
-            <div>
-              <img class="clock" src="clock1.svg" , alt="tsag" />
-              <p>2020.10.05</p>
+
+          <div class="MedeeCard">
+            <img class="MedeeniiZurag" src="miraculous.webp" , alt="medee1" />
+            <div class="MedeeniiBody">
+              <h4 class="MedeeniiTitle">"Монголын кино урлаг 2020"</h4>
+              <img src="clock1.svg" , alt="tsag" />
+              <p class="MedeeniiOgnoo">2020.10.05</p>
+              <p class="MedeeniiTovchTailbar">
+                "Монголын кино урлаг 2020"анхдугаар чуулга уулзалт зохион
+                байгуулагдлаа.
+              </p>
             </div>
-            <p>
-              Тайланд улсын нийслэл Бангкок хотод эсэргүүцлийн жагсаал болов.
-            </p>
           </div>
-          <div>
-            <img src="" , alt="m1" />
-            <h4>"Wechat", "TikTok"-т хориг тавьсан нь</h4>
-            <div>
-              <img class="clock" src="clock1.svg" , alt="tsag" />
-              <p>2020.10.05</p>
-            </div>
-            <p>
-              АНУ-ын ерөнхийлөгчийн засаг захиргааны энэхүү шийдвэрт тус улсын
-              сан-франциско хотын шүүх өнгөрөгч ням гарагт хориг тавьжээ.
-            </p>
-          </div>
-        </div>
-        <div>
-          <div><a>Өмнөх</a></div>
-          <div><a>Дараах</a></div>
+
+          
+           -->
         </div>
       </div>
     </section>
-
+    <section class="mininews"><main id="main"></main></section>
+    
 	
 <footer class="kagebunshino">
 	<div class="inner-container">
 		<div class="first sasuke">
-			<img src="https://cdn.greensoft.mn/uploads/site/474/site_config/logo/28c79ec28e8d9914d27b551f7448ab93a2586438.png" alt="Оюуны тэтгэж, жаргал бэлэглэнэ | МОНГОЛ ТВ" class="footer-logo">
+			<img src="batlogoog1.png" alt="BAT ТВ" class="footer-logo">
 		</div>
 		<div class="second sasuke">
 			<div class="footer-menu-item"><a target="" href="index.html"><div>Нүүр</div></a></div>
@@ -166,7 +209,7 @@ function menudrop() {
 			</a></div>
 		</div>
 		<div class="last sasuke">
-			<span class="owner-text">Бүх эрх хуулиар хамгаалагдсан © 2018 “МОНГОЛ ТВ” ХХК</span> 
+			<span class="owner-text">Бүх эрх хуулиар хамгаалагдсан © 2018 “BAT ТВ” ХХК</span> 
 		</div>
 	</div>
 </footer>

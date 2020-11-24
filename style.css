@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500;700&display=swap');
 :root { 
         --foot-color:black
         --menu-text:22px
@@ -42,20 +41,11 @@
         margin-right: 7%;
         z-index: 0;
     }
-    .tabitem {
-        float: left;
-        margin-left: 2rem;
-        margin-right: 2rem;
-        list-style: none;
-        font-family: 'Oswald', sans-serif;
-        font-variation-settings: 'wght' 300;
-        font-weight: lighter;        
+    .mininews{
+        margin-left: 7%;
+        margin-right: 7%;
+        z-index: 0;
     }
-
-    .UlofTabItem {
-        margin-bottom: 2rem;
-    }
-
     h1, h2, h3, h4, h5 {
         font-family: 'Oswald', sans-serif;
         font-weight: lighter;
@@ -243,12 +233,11 @@
       background-color: #717171;
     }
     
-
-
 /* footer css jimmy */
 /*html{
     width:100%;
 }*/
+/* 
 .kagebunshino{
     position: absolute;
     bottom: 0;
@@ -268,11 +257,35 @@
     justify-content: center;
     align-items: center;
 }
+*/
+
+.kagebunshino{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+    width: 100vw;
+    margin-left: -8px;
+    height: 24vh;
+    background-color: #000000;
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+.inner-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .inner-container .sasuke + .sasuke {
     margin-top: 20px;
 }
 .first {
-    height: 25%;
+    height: 30%;
 }
 .first img {
     height: 100%;
@@ -333,7 +346,28 @@
 color: #75fffd;
 transition: 0.3s;
 }
-
+/* programm */
+.program-con a{
+    text-decoration: none;
+    float: left;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    list-style: none;
+    font-family: 'Oswald', sans-serif;
+    font-variation-settings: 'wght' 300;
+    font-weight: lighter; 
+    color: #000000;
+    margin-bottom: 2rem;
+}
+.program-con {
+    margin-bottom: 2rem;
+}
+/* live */
+.live {
+    margin-left: 27%;
+    margin-bottom: 20px;
+    
+}
 
 
 
@@ -612,6 +646,308 @@ display:block;
         transition: 0.7s ease-in-out;
         opacity: 1;
     }
+
+    /*Medee medeelliin heseg*/
+    .MedeeMedeelel {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: peachpuff;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .MedeeCard {
+        width: 24%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .MedeeniiZurag {
+        position: relative;
+        object-fit: cover;
+        border-radius: 0.3;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiBody {
+        position: relative;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiTitle {
+        clear: both;
+        
+    }
+
+    .MedeeniiBody img {
+        position: relative;
+        float: left;
+        width: 1rem;
+        height: auto;
+        object-fit: cover;
+        background-color: #75fffd;
+    }
+
+    .MedeeniiOgnoo {
+        width: 50%;
+        height: auto;
+        float: right;
+        background-color: #000000;
+    }
+
+    .MedeeniiTovchTailbar {
+        clear: both;
+
+    }
+    /*Medee medeelliin heseg*/
+    .MedeeMedeelel {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: peachpuff;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .MedeeCard {
+        width: 24%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .MedeeniiZurag {
+        position: relative;
+        object-fit: cover;
+        border-radius: 0.3;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiBody {
+        position: relative;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiTitle {
+        clear: both;
+        
+    }
+
+    .MedeeniiBody img {
+        position: relative;
+        float: left;
+        width: 1rem;
+        height: auto;
+        object-fit: cover;
+        background-color: #75fffd;
+    }
+
+    .MedeeniiOgnoo {
+        width: 50%;
+        height: auto;
+        float: right;
+        background-color: #000000;
+    }
+
+    .MedeeniiTovchTailbar {
+        clear: both;
+
+    }
+    /*Medee medeelliin heseg*/
+    .MedeeMedeelel {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: peachpuff;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .MedeeCard {
+        width: 24%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .MedeeniiZurag {
+        position: relative;
+        object-fit: cover;
+        border-radius: 0.3;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiBody {
+        position: relative;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiTitle {
+        clear: both;
+        
+    }
+
+    .MedeeniiBody img {
+        position: relative;
+        float: left;
+        width: 1rem;
+        height: auto;
+        object-fit: cover;
+        background-color: #75fffd;
+    }
+
+    .MedeeniiOgnoo {
+        width: 50%;
+        height: auto;
+        float: right;
+        background-color: #000000;
+    }
+
+    .MedeeniiTovchTailbar {
+        clear: both;
+
+    }
+    /*Medee medeelliin heseg*/
+    .MedeeMedeelel {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: peachpuff;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .MedeeCard {
+        width: 24%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .MedeeniiZurag {
+        position: relative;
+        object-fit: cover;
+        border-radius: 0.3;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiBody {
+        position: relative;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiTitle {
+        clear: both;
+        
+    }
+
+    .MedeeniiBody img {
+        position: relative;
+        float: left;
+        width: 1rem;
+        height: auto;
+        object-fit: cover;
+        background-color: #75fffd;
+    }
+
+    .MedeeniiOgnoo {
+        width: 50%;
+        height: auto;
+        float: right;
+        background-color: #000000;
+    }
+
+    .MedeeniiTovchTailbar {
+        clear: both;
+
+    }
+    /*Medee medeelliin heseg*/
+    .MedeeMedeelel {
+        position: relative;
+        width: 100%;
+        height: auto;
+        background-color: peachpuff;
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    .MedeeCard {
+        width: 24%;
+        height: auto;
+        position: relative;
+        float: left;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    .MedeeniiZurag {
+        position: relative;
+        object-fit: cover;
+        border-radius: 0.3;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiBody {
+        position: relative;
+        width: 100%;
+        height: auto;
+        clear: both;
+    }
+
+    .MedeeniiTitle {
+        clear: both;
+        
+    }
+
+    .MedeeniiBody img {
+        position: relative;
+        float: left;
+        width: 1rem;
+        height: auto;
+        object-fit: cover;
+        background-color: #75fffd;
+    }
+
+    .MedeeniiOgnoo {
+        width: 50%;
+        height: auto;
+        float: right;
+        background-color: #000000;
+    }
+
+    .MedeeniiTovchTailbar {
+        clear: both;
+
+    }
+    /*Medee responsive heseg*/
     @media (min-width: 100px) and (max-width: 900px) {
         .Ontsloh-zurag {
             width: 100%;
