@@ -652,18 +652,19 @@ display:block;
         position: relative;
         width: 100%;
         height: auto;
-        background-color: peachpuff;
         margin-top: 2%;
         margin-bottom: 2%;
     }
 
     .MedeeCard {
-        width: 24%;
+        width: 23%;
         height: auto;
         position: relative;
         float: left;
-        margin-left: 2%;
-        margin-right: 2%;
+        margin-left: 1%;
+        margin-right: 1%;
+        margin-top: 2%;
+        margin-bottom: 2%;
     }
 
     .MedeeniiZurag {
@@ -672,281 +673,43 @@ display:block;
         border-radius: 0.3;
         width: 100%;
         height: auto;
-        clear: both;
+        float: left;
     }
 
     .MedeeniiBody {
         position: relative;
         width: 100%;
         height: auto;
-        clear: both;
+        float: left;
     }
 
     .MedeeniiTitle {
-        clear: both;
-        
+        float: left;
+        width: 100%;
+        text-align: center;
+        font-weight: bold;
     }
 
     .MedeeniiBody img {
-        position: relative;
         float: left;
+        position: relative;
         width: 1rem;
         height: auto;
-        object-fit: cover;
-        background-color: #75fffd;
+        margin-right: 1rem;
     }
 
     .MedeeniiOgnoo {
         width: 50%;
         height: auto;
-        float: right;
-        background-color: #000000;
+        float: left;
     }
 
     .MedeeniiTovchTailbar {
         clear: both;
-
-    }
-    /*Medee medeelliin heseg*/
-    .MedeeMedeelel {
-        position: relative;
-        width: 100%;
-        height: auto;
-        background-color: peachpuff;
-        margin-top: 2%;
-        margin-bottom: 2%;
+        text-align: justify;
+        text-indent: 3rem;
     }
 
-    .MedeeCard {
-        width: 24%;
-        height: auto;
-        position: relative;
-        float: left;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .MedeeniiZurag {
-        position: relative;
-        object-fit: cover;
-        border-radius: 0.3;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiBody {
-        position: relative;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiTitle {
-        clear: both;
-        
-    }
-
-    .MedeeniiBody img {
-        position: relative;
-        float: left;
-        width: 1rem;
-        height: auto;
-        object-fit: cover;
-        background-color: #75fffd;
-    }
-
-    .MedeeniiOgnoo {
-        width: 50%;
-        height: auto;
-        float: right;
-        background-color: #000000;
-    }
-
-    .MedeeniiTovchTailbar {
-        clear: both;
-
-    }
-    /*Medee medeelliin heseg*/
-    .MedeeMedeelel {
-        position: relative;
-        width: 100%;
-        height: auto;
-        background-color: peachpuff;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-
-    .MedeeCard {
-        width: 24%;
-        height: auto;
-        position: relative;
-        float: left;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .MedeeniiZurag {
-        position: relative;
-        object-fit: cover;
-        border-radius: 0.3;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiBody {
-        position: relative;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiTitle {
-        clear: both;
-        
-    }
-
-    .MedeeniiBody img {
-        position: relative;
-        float: left;
-        width: 1rem;
-        height: auto;
-        object-fit: cover;
-        background-color: #75fffd;
-    }
-
-    .MedeeniiOgnoo {
-        width: 50%;
-        height: auto;
-        float: right;
-        background-color: #000000;
-    }
-
-    .MedeeniiTovchTailbar {
-        clear: both;
-
-    }
-    /*Medee medeelliin heseg*/
-    .MedeeMedeelel {
-        position: relative;
-        width: 100%;
-        height: auto;
-        background-color: peachpuff;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-
-    .MedeeCard {
-        width: 24%;
-        height: auto;
-        position: relative;
-        float: left;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .MedeeniiZurag {
-        position: relative;
-        object-fit: cover;
-        border-radius: 0.3;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiBody {
-        position: relative;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiTitle {
-        clear: both;
-        
-    }
-
-    .MedeeniiBody img {
-        position: relative;
-        float: left;
-        width: 1rem;
-        height: auto;
-        object-fit: cover;
-        background-color: #75fffd;
-    }
-
-    .MedeeniiOgnoo {
-        width: 50%;
-        height: auto;
-        float: right;
-        background-color: #000000;
-    }
-
-    .MedeeniiTovchTailbar {
-        clear: both;
-
-    }
-    /*Medee medeelliin heseg*/
-    .MedeeMedeelel {
-        position: relative;
-        width: 100%;
-        height: auto;
-        background-color: peachpuff;
-        margin-top: 2%;
-        margin-bottom: 2%;
-    }
-
-    .MedeeCard {
-        width: 24%;
-        height: auto;
-        position: relative;
-        float: left;
-        margin-left: 2%;
-        margin-right: 2%;
-    }
-
-    .MedeeniiZurag {
-        position: relative;
-        object-fit: cover;
-        border-radius: 0.3;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiBody {
-        position: relative;
-        width: 100%;
-        height: auto;
-        clear: both;
-    }
-
-    .MedeeniiTitle {
-        clear: both;
-        
-    }
-
-    .MedeeniiBody img {
-        position: relative;
-        float: left;
-        width: 1rem;
-        height: auto;
-        object-fit: cover;
-        background-color: #75fffd;
-    }
-
-    .MedeeniiOgnoo {
-        width: 50%;
-        height: auto;
-        float: right;
-        background-color: #000000;
-    }
-
-    .MedeeniiTovchTailbar {
-        clear: both;
-
-    }
     /*Medee responsive heseg*/
     @media (min-width: 100px) and (max-width: 900px) {
         .Ontsloh-zurag {
@@ -965,6 +728,20 @@ display:block;
         #o2 {
             margin-left: 0;
         }
+        .MedeeCard {
+            width: 100%;
+        }
+        .MedeeniiZurag {
+            width: 30%;
+            margin-right: 2%;
+        }
+        .MedeeniiBody {
+            width: 68%;
+            font-size: small;
+        }
+        .MedeeniiTitle {
+            text-align: left;
+        }
     }
     @media (min-width: 900px) and (max-width: 1200px) {
         .Ontsloh-zurag {
@@ -975,6 +752,19 @@ display:block;
             position: absolute;
             width: 47%;
             transform: translateY(-105%);
+        }
+        .MedeeCard {
+            width: 100%;
+        }
+        .MedeeniiZurag {
+            width: 40%;
+            margin-right: 2%;
+        }
+        .MedeeniiBody {
+            width: 58%;
+        }
+        .MedeeniiTitle {
+            text-align: left;
         }
     }
 
