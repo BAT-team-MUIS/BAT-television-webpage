@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;500&display=swap');
-:root { 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap');:root { 
         --foot-color:black
         --menu-text:22px
         --main-text::18px
@@ -12,6 +11,9 @@
     }
     #mob{
         display:none;
+    }
+    * {
+        font-stretch: ultra-expanded;
     }
     @media screen and (max-width: 800px) {
         .navbar{
@@ -222,7 +224,7 @@
     /* Caption text */
     .text {
       color: #f2f2f2;
-      font-size: 15px;
+      font-size: 18px;
       padding: 8px 12px;
       position: relative;
       bottom: 8px;
@@ -365,7 +367,7 @@ transition: 0.3s;
 }
 /* live */
 .live {
-    margin-left: 27%;
+    margin-left: 20%;
     margin-bottom: 20px;
     
 }
@@ -768,8 +770,5 @@ display:block;
             text-align: left;
         }
     }
-
-	    
-	    
 
 

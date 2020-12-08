@@ -69,7 +69,6 @@ export class Post {
                 <img class="MedeeniiZurag" src="${this.imgURL}" alt="MedeeniiZurag">
                 <div class="MedeeniiBody">
                 <h4 class="MedeeniiTitle">${this.title}</h4>
-                <img src="clock1.svg" , alt="tsag" />
                 <p class="MedeeniiOgnoo">${this.date}</p>
                 <p class="MedeeniiTovchTailbar">${this.description}</p>
                 </div>
