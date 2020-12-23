@@ -58,6 +58,7 @@
         font-family: 'Oswald', sans-serif;
         font-variation-settings: 'wght' 300;
         font-weight: lighter;
+	font-display: swap
     }
 
     .navbar {
