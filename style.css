@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap');:root { 
+@import url(rel="preload" 'https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap');:root { 
         --foot-color:black
         --menu-text:22px
         --main-text::18px
@@ -52,13 +52,14 @@
     h1, h2, h3, h4, h5 {
         font-family: 'Oswald', sans-serif;
         font-weight: lighter;
+	font-display: swap;
     }
 
     p, span, ul {
         font-family: 'Oswald', sans-serif;
         font-variation-settings: 'wght' 300;
         font-weight: lighter;
-	font-display: swap
+	font-display: swap;
     }
 
     .navbar {
@@ -78,6 +79,7 @@
         padding: 1%;
         text-decoration: none;
         font-family: 'Oswald', sans-serif !important;
+	font-display: swap;
     }    
     .sticky {
         position: fixed;
