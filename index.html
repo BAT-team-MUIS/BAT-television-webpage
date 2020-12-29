@@ -10,6 +10,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name=description content="BAT live">
+# cache static assets for one month
+<filesMatch “.(jpg|jpeg|png|gif|js|ico|webp|css)$”>
+  Header set Cache-Control “max-age=2628000, public”
+</filesMatch>
 </head>
 <body>
 <header>
