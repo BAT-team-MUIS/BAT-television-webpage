@@ -11,7 +11,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name=description content="BAT TV">
     <script src="main.js" type="module"></script>
-	Cache-Control: max-age=3153600;
+# 1 WEEK - possible to be changed, unlikely
+<FilesMatch "\.(jpg|jpeg|png|gif|swf|webp|css|js)$">
+Header set Cache-Control "max-age=604800, public"
+</FilesMatch>
   </head>
 <body>
 <header>
