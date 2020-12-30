@@ -1,4 +1,4 @@
-@import url(rel="preload" 'https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap');:root { 
+@import url(rel="preload" "https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap");:root { 
         --foot-color:black
         --menu-text:22px
         --main-text::18px
@@ -31,6 +31,7 @@
 	height: 100%;
         position: relative;
    	 }
+
 	::-moz-selection { /* Code for Firefox */
   	color: white;
   	background: #202020;
