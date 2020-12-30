@@ -14,6 +14,7 @@
     }
     * {
         font-stretch: ultra-expanded;
+	    font-display: swap;
     }
     @media screen and (max-width: 800px) {
         .navbar{
