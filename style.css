@@ -14,7 +14,9 @@
     }
     * {
         font-stretch: ultra-expanded;
-	    font-display: swap;
+	 font-family: 'Oswald', sans-serif;
+        font-weight: lighter;
+	font-display: swap;
     }
     @media screen and (max-width: 800px) {
         .navbar{
