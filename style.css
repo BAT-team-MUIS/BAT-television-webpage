@@ -445,6 +445,15 @@ table tr td:first-child{
 .topnav #myLinks {
   display: none;
 }
+#myLinks{
+display: none;
+}
+.topnav {
+display:none;
+}
+.topnav a.icon {
+display: none;
+}
 @media screen and (max-width: 800px) {
 .topnav {
 display:block;
