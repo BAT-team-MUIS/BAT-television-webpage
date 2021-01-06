@@ -14,16 +14,27 @@
 	  </head>
 	<body>
 	<header>
-		<nav class="navbar">
-		<a href="index.html"><img src="logo1.svg" alt="logo" width="60%" height="40"></a>
-		<a href="index.html">НҮҮР </a>
-		<a href="content.html">НЭВТРҮҮЛЭГ</a>
-		<a href="program.html">ХӨТӨЛБӨР</a>
-		<a href="live.html">LIVE</a>
-		<a href="news.html">МЭДЭЭ</a>
-		<a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
-	  </nav>
-	
+			<nav class="navbar">
+    <a href="index.html"><img src="logo1.svg" alt="logo" width="110" height="40"></a>
+    <a href="index.html" class="btn active">НҮҮР </a>
+    <a href="content.html" class="btn">НЭВТРҮҮЛЭГ</a>
+    <a href="program.html" class="btn">ХӨТӨЛБӨР</a>
+    <a href="live.html" class="btn">LIVE</a>
+    <a href="news.html" class="btn">МЭДЭЭ</a>
+    <a href="cowork.html" class="btn">ХАМТЫН АЖИЛЛАГАА</a>
+  </nav>
+<script>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("navbar");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
+}
+</script>
 	</header>
 	<div class="topnav">
 	  <div id="myLinks">
