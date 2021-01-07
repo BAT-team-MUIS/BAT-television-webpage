@@ -1,10 +1,12 @@
 @import url(rel="preload" "https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root { 
         --foot-color:black;
         --menu-text:22px;
         --main-text:18px;
         --foot-text:15px;
         --head-text:20px;
+        --font-menu: 'Lobster', cursive;
         --font: 'Oswald', sans-serif;
         --shadow-color: #84817a;
         --menu-hover: #f7f1e3;
@@ -92,9 +94,7 @@
         text-align: center;
         padding: 1%;
         text-decoration: none;
-        font-family: var(--font);
-	font-display: swap;
-        font-family: var(--font);
+        font-family: var(--font-menu);
         font-weight: 900;
 	font-display: swap;
     }    
