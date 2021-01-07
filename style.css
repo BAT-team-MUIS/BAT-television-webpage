@@ -672,7 +672,7 @@ display:block;
         opacity: 0;
     }
     .Ontsloh-zurag:hover img {
-        opacity: 0.3;
+        opacity: 0.2;
         transform: translate(0px, -20px);
         box-shadow: 0px 20px 10px black;
     }
