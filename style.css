@@ -73,7 +73,7 @@
     }
 /* MENU HOVER ACTIVE STATUS */
 .active, .btn:hover {
-  background-color: black;
+  background-color: grey;
   color: white;
 }
     .navbar {
@@ -88,7 +88,7 @@
     .navbar a {
         width: 10%;
         float: left;
-        color: white;
+        color: black;
         text-align: center;
         padding: 1%;
         text-decoration: none;
