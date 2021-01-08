@@ -12,75 +12,51 @@
 	<meta name=description content="Хамтын ажиллагаа">
 </head>
 <body>
-<header>
-<nav class="navbar">
-    <a href="index.html"><img src="logo1.svg" alt="logo" width="110" height="40"></a>
-    <a href="index.html" class="btn active">НҮҮР </a>
-    <a href="content.html" class="btn">НЭВТРҮҮЛЭГ</a>
-    <a href="program.html" class="btn">ХӨТӨЛБӨР</a>
-    <a href="live.html" class="btn">LIVE</a>
-    <a href="news.html" class="btn">МЭДЭЭ</a>
-    <a href="cowork.html" class="btn active">ХАМТДАА</a>
-  </nav>
-<script>
-// Add active class to the current button (highlight it)
-var header = document.getElementById("navbar");
-var btns = header.getElementsByClassName("btn");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-</script>
-
-</header>
-<div class="topnav">
-  <div id="myLinks">
-    <a href="index.html">НҮҮР </a>
-    <a href="content.html">НЭВТРҮҮЛЭГ</a>
-    <a href="program.html">ХӨТӨЛБӨР</a>
-    <a href="live.html">LIVE</a>
-    <a href="news.html">МЭДЭЭ</a>
-    <a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
-  </div>
-  <a href="javascript:void(0);" class="icon" onclick="menudrop()"> <img id="mob" src="logo1.svg" alt="mobilemenu" width="60" height="auto"> </a>
-</div>
-<script>
-function menudrop() {
-  var x = document.getElementById("myLinks");
-  if (x.style.display == "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
-  }
-}
-</script>
-<body>
   <header>
     <nav class="navbar">
-      <a href="index.html"><img src="logo1.svg" alt="logo" width="60%" height="40"></a>
+      <img src="batlogoog1.png" alt="logo" width="5.5%" height="auto">
+      <a href="index.html" class="btn">НҮҮР</a>
+      <a href="content.html" class="btn">НЭВТРҮҮЛЭГ</a>
+      <a href="program.html" class="btn">ХӨТӨЛБӨР</a>
+      <a href="live.html" class="btn">LIVE</a>
+      <a href="news.html" class="btn">МЭДЭЭ</a>
+      <a href="cowork.html" class="btn active">ХАМТДАА</a>
+    </nav>
+  <script>
+  // Add active class to the current button (highlight it)
+  var header = document.getElementById("navbar");
+  var btns = header.getElementsByClassName("btn");
+  for (var i = 0; i < btns.length; i++) {
+    btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+    });
+  }
+  </script>
+  </header>
+  <div class="topnav">
+    <div id="myLinks">
       <a href="index.html">НҮҮР </a>
       <a href="content.html">НЭВТРҮҮЛЭГ</a>
       <a href="program.html">ХӨТӨЛБӨР</a>
       <a href="live.html">LIVE</a>
       <a href="news.html">МЭДЭЭ</a>
       <a href="cowork.html">ХАМТЫН АЖИЛЛАГАА</a>
-    </nav>
-    <img id="mob" src="logo1.svg" alt="mobilemenu" width="60" height="auto">
-  </header>
-	
-  <h1>BAT телевиз</h1>
+    </div>
+    <a href="javascript:void(0);" class="icon" onclick="menudrop()"> <img id="mob" src="logo1.svg" alt="mobilemenu" width="110" height="40"> </a>
+  </div>
+    
 	<div class="Nevtruuleg">
       <div>
         <h2>Хамтын ажиллагаа</h2>
+        <p>Ер бусын зүйлс сонирхогч тантай хамтран ажиллахдаа бид таатай байх болно.</p>
       </div>
     </div>  
     <section class="Content-wrap">
       <div class="NevtruulegCard-right">
         <div class="TopText">
-          <h3 style="background-color:orange;border-radius: 10px;text-align: center;">Реклам зар сурталчилгаа</h3>
+          <h3 style="background-image: url('pics/back.webp');margin-top: 0.1vh;color: white;padding:10vh;border-radius: 1vh; text-align: center;">Реклам зар сурталчилгаа</h3>
           <ul>
             <li>Зар сурталчилгааны үнийн санал</li>
             <li>Төлбөртэй нэвтрүүлэг</li>
@@ -89,11 +65,11 @@ function menudrop() {
             <li>Зар сурталчилгааны байршил</li>
           </ul>
         </div>
-        <img src="p.webp" alt="p">
+        <img src="pics/cowork1.webp" style="height: 45vh;" alt="p">
       </div>
       <div class="NevtruulegCard-left">
         <div class="TopText">
-          <h3 style="background-color:orange;border-radius: 10px;text-align: center;">Контент хамтын ажиллагаа</h3>
+          <h3 style="background-image: url('pics/back.webp');margin-top: 0.1vh;color: white;padding:10vh;border-radius: 1vh; text-align: center;">Контент хамтын ажиллагаа</h3>
           <ul>
             <li>Шоу нэвтрүүлгүүд</li>
             <li>Кино</li>
@@ -101,11 +77,11 @@ function menudrop() {
             <li>Арга хэмжээ</li>
             </ul>
         </div>
-        <img src="c.webp" alt="c">
+        <img src="pics/cowork2.webp" style="height: 45vh;" alt="c">
       </div>
       <div class="NevtruulegCard-right">
         <div class="TopText">
-          <h3 style="background-color:orange;border-radius: 10px;text-align: center;">Техник хамтын ажиллагаа</h3>
+          <h3 style="background-image: url('pics/back.webp');margin-top: 0.1vh;color: white;padding:10vh;border-radius: 1vh; text-align: center;">Техник хамтын ажиллагаа</h3>
           <ul>
             <li>Cameras</li>
             <li>Video Supports & Stabilizers</li>
@@ -115,7 +91,7 @@ function menudrop() {
             <li>Monitor</li>
             </ul>
         </div>
-        <img src="u.webp" alt="u">
+        <img src="pics/cowork3.webp" style="height: 45vh;" alt="u">
       </div>
 	</section>
 <footer class="kagebunshino">
