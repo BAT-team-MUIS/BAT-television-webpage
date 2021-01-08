@@ -428,7 +428,9 @@ transition: 0.3s;
     background: #eee;
     padding: 10px;
     border: 1px solid rgb(0, 0, 0);
-    position: relative; 
+    margin-left: -1px;
+    position: relative;
+    left: 1px; 
   }
   .tab [type="radio"] {
     opacity: 0;
@@ -461,6 +463,7 @@ transition: 0.3s;
     opacity: 1;
     transform: translateX(0);
   }
+
 /* live */
 .live {
     margin-top: -4vh;
