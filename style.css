@@ -105,6 +105,7 @@
         font-weight: 900;
 	    font-display: swap;
         font-size: var(--menu-text);
+        transition: 0.25s ease-in-out;
     }      
     .navbar img {
         float: left;
@@ -466,7 +467,7 @@ transition: 0.3s;
 
 /* live */
 .live {
-    margin-top: -4vh;
+    margin-bottom: 2%;
     width: 100%;
     height: 88vh;
 }
@@ -553,24 +554,29 @@ display: none;
     body {
         padding-top: 15%;
     }
-.topnav {
-display:block;
-}
-.topnav #myLinks {
-  display: none;
-}
-.topnav a {
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-.topnav a.icon {
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
+    .topnav {
+    display:block;
+    }
+    .topnav #myLinks {
+        display: none;
+    }
+    .topnav a {
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+    }
+    .topnav a.icon {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .live {
+        margin-top: 3%;
+        width: 100%;
+        height: 30rem;
+    }
 }
 
    /* content.html heseg */
@@ -593,14 +599,15 @@ display:block;
     .Nevtruuleg p {
         position: relative;
         margin-left: 7%;
+        padding-right: 3%;
     }
 
     .NevtruulegCard-right {
         position: relative;
         clear: both;
         width: 100%;
-        margin-bottom: 3%;
-        margin-top: 3%;
+        margin-bottom: 10%;
+        margin-top: 5%;
         float: left;
         text-align: justify;
     }
@@ -610,8 +617,8 @@ display:block;
         clear: both;
         width: 100%;
         height: auto;
-        margin-bottom: 3%;
-        margin-top: 3%;
+        margin-bottom: 10%;
+        margin-top: 5%;
         float: left;
         text-align: justify;
     }
@@ -668,6 +675,13 @@ display:block;
         height: 1rem;
     }
     @media screen and (max-width: 800px) {
+        .NevtruulegCard-left, .NevtruulegCard-right {
+            margin-bottom: 10%;
+            margin-top: 5%;
+        }
+        .NevtruulegCard-left h3, .NevtruulegCard-right h3 {
+            padding: 1rem !important; 
+        }
         .NevtruulegCard-right img {
             margin: 0%;
             width: 100%;
@@ -782,12 +796,12 @@ display:block;
     }
 
     .MedeeCard {
-        width: 23%;
+        width: 22%;
         height: auto;
         position: relative;
         float: left;
-        margin-left: 1%;
-        margin-right: 1%;
+        margin-left: 1.5%;
+        margin-right: 1.5%;
         margin-top: 2%;
         margin-bottom: 2%;
     }
@@ -795,9 +809,9 @@ display:block;
     .MedeeniiZurag {
         position: relative;
         object-fit: cover;
-        border-radius: 0.3;
         width: 100%;
-        height: auto;
+        border-radius: 1vh;
+        height: 15rem;
         float: left;
     }
 
@@ -811,29 +825,24 @@ display:block;
     .MedeeniiTitle {
         float: left;
         width: 100%;
+        font-size: 2vh;
         text-align: center;
         font-weight: bold;
     }
 
-    .MedeeniiBody img {
-        float: left;
-        position: relative;
-        width: 1rem;
-        height: auto;
-        margin-right: 1rem;
-        border-radius: 0.3vh;
-    }
-
     .MedeeniiOgnoo {
         width: 50%;
+        font-size: 2vh;
         height: auto;
         float: left;
+        margin-top: -1vh;
     }
 
     .MedeeniiTovchTailbar {
         clear: both;
         text-align: justify;
         text-indent: 3rem;
+        font-size: 2vh;
     }
 
     /*Medee responsive heseg*/

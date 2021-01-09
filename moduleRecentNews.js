@@ -43,13 +43,14 @@ export function getPosts(url, callMeBack) {
     fetch(url)
     .then(response=>response.json())
     .then(data => {
+        // Neg element bur ni news gsn objectiig ilerhiileg array
         let posts = [];
-        data.news.forEach(
+        data.news.map(
             (post) => {
                 posts.push(
                     new Post(post.imgURL, post.title, post.date, post.description)
-                    )
-                }
+                )
+            }
         )
         callMeBack(posts);
     })
@@ -68,9 +69,9 @@ export class Post {
             <div class="MedeeCard">
                 <img class="MedeeniiZurag" src="${this.imgURL}" alt="MedeeniiZurag">
                 <div class="MedeeniiBody">
-                <h4 class="MedeeniiTitle">${this.title}</h4>
-                <p class="MedeeniiOgnoo">${this.date}</p>
-                <p class="MedeeniiTovchTailbar">${this.description}</p>
+                    <h4 class="MedeeniiTitle">${this.title}</h4>
+                    <p class="MedeeniiOgnoo">${this.date}</p>
+                    <p class="MedeeniiTovchTailbar">${this.description}</p>
                 </div>
             </div>
         `
