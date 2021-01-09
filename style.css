@@ -423,12 +423,14 @@ transition: 0.3s;
 .tabs {
    position: relative;
     min-height: 90vh;
+    width: 86%;
     clear: both;	    
     margin: 25px 0;
     margin-right: 1rem;
     z-index: 0;
     font-family: var(--font);
     font-size: var(--body-text);
+    self-align: center;
   }
   .tab {
     float: left;
