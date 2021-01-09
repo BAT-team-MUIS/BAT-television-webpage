@@ -23,7 +23,7 @@
         font-weight: lighter;
 	    font-display: swap;
     }
-    .NameOfTV {
+    #NameOfTV {
         display: none;
     }
     @media screen and (max-width: 800px) {
