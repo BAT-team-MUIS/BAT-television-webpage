@@ -421,11 +421,11 @@ transition: 0.3s;
 }
 /* programm */
 .tabs {
-    position: relative;
-    min-height: 700px;
-    width: 700px;
-    clear: both;
-    margin: auto;
+   position: relative;
+    min-height: 90vh;
+    clear: both;	    
+    margin: 25px 0;
+    margin-right: 1rem;
     z-index: 0;
     font-family: var(--font);
     font-size: var(--body-text);
