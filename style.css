@@ -532,7 +532,7 @@ table:not(.table) {
     }
 table td{
     border: 1px solid #eee;
-    font-family: '', sans-serif;
+    font-family: var(--font);
     font-variation-settings: 'wght' 300;
     font-weight: lighter;
 	font-display: swap;
