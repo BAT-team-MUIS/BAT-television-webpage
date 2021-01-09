@@ -789,7 +789,8 @@ display: none;
         position: absolute;
         width: 45%;
         transform: translateY(-150%);
-        opacity: 0;
+        opacity: 1;
+        color: white;
     }
     .Ontsloh-zurag:hover img {
         opacity: 0.2;
