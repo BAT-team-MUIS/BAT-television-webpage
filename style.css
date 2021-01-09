@@ -426,7 +426,6 @@ transition: 0.3s;
     width: 680px;
     clear: both;
     margin: auto;
-    margin-right: 1rem;
     z-index: 0;
     font-family: var(--font);
     font-size: var(--body-text);
