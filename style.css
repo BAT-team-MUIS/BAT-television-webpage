@@ -422,9 +422,10 @@ transition: 0.3s;
 /* programm */
 .tabs {
     position: relative;
-    min-height: 90vh;
+    min-height: 666px;
+    width: 680px;
     clear: both;
-    margin: 25px 0;
+    margin: auto;
     margin-right: 1rem;
     z-index: 0;
     font-family: var(--font);
