@@ -82,6 +82,10 @@
         font-display: swap;
         font-size: var(--body-text);
     }
+    #myLinks a{font-family: var(--font-menu);
+        font-size: var(--main-text);
+	    font-display: swap;
+	}
 /* MENU HOVER ACTIVE STATUS */
 .active, .btn:hover {
   background-color: white;
