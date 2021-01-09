@@ -422,8 +422,8 @@ transition: 0.3s;
 /* programm */
 .tabs {
     position: relative;
-    min-height: 666px;
-    width: 680px;
+    min-height: 700px;
+    width: 700px;
     clear: both;
     margin: auto;
     z-index: 0;
