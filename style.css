@@ -1,4 +1,5 @@
-@import url(rel="preload" "https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap");
+/* @import url(rel="preload" "https://fonts.googleapis.com/css2?family=Oswald:wght@300;585&display=swap"); */
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 :root { 
         --foot-color:black;
@@ -8,7 +9,7 @@
         --head-text: 20vh;
         --body-text: 2.2vh;
         --font-menu: 'Lobster', cursive;
-        --font: 'Oswald', sans-serif;
+        --font: 'Bitter', serif;
         --shadow-color: #84817a;
         --menu-hover: #f7f1e3;
         --back-ground: white;
@@ -18,7 +19,7 @@
     }
     * {
         font-stretch: ultra-expanded;
-	    font-family: 'Oswald', sans-serif;
+	    font-family: var(--font);
         font-weight: lighter;
 	    font-display: swap;
     }
@@ -72,7 +73,7 @@
     }
 
     p, span, ul {
-        font-family: 'Oswald', sans-serif;
+        font-family: var(--font);
         font-variation-settings: 'wght' 300;
         font-weight: lighter;
         font-display: swap;
@@ -518,7 +519,7 @@ table:not(.table) {
     }
 table td{
     border: 1px solid #eee;
-    font-family: 'Oswald', sans-serif;
+    font-family: '', sans-serif;
     font-variation-settings: 'wght' 300;
     font-weight: lighter;
 	font-display: swap;
@@ -827,7 +828,7 @@ display: none;
         width: 100%;
         font-size: 2vh;
         text-align: center;
-        font-weight: bold;
+        font-weight: 900;
     }
 
     .MedeeniiOgnoo {
